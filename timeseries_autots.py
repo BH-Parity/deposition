@@ -40,4 +40,4 @@ forecasts_up, forecasts_low = prediction.upper_forecast, prediction.lower_foreca
 # accuracy of all tried model results
 model_results = model.results()
 # and aggregated from cross validation
-validation_results = model.results("validation")
+validation_results =  model.results("validation")
